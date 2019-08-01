@@ -1,0 +1,2 @@
+debian/bin/librad usr/bin
+src/librad usr/lib/libra

@@ -1,0 +1,11 @@
+[Protocol]
+exec=libra-qt '%u'
+protocol=libra
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

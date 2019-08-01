@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LIBRA
+Comment=LIBRA P2P Cryptocurrency
+Comment[fr]=LIBRA, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=LIBRA, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/libra-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/libra;
+Categories=Office;

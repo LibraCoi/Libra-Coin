@@ -1,0 +1,9 @@
+Building LIBRA
+
+See doc/readme-qt.rst for instructions on building LIBRA QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of LIBRA.
+
+See doc/build-*.txt for instructions on building librad,
+the intended-for-services, no-graphical-interface, reference
+implementation of LIBRA.
