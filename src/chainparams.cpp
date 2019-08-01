@@ -85,9 +85,9 @@ public:
         assert(hashGenesisBlock == uint256("0x0000012bd17e1bb941247df8e69003780b569d02479244466aa9c9a867befd4c"));
         assert(genesis.hashMerkleRoot == uint256("0xf9e1f5ec325f87894fac0ff5d5b16b1248ab3195a3d2e0baa9f8f055e1823205"));
 
-        vFixedSeeds.clear();
-        vSeeds.clear();
-
+        vSeeds.push_back(CDNSSeedData("libraseed01.dynu.net", "libraseed01.dynu.net"));
+        vSeeds.push_back(CDNSSeedData("libraseed02.dynu.net", "libraseed02.dynu.net"));
+        
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 48);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 50);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 176);
